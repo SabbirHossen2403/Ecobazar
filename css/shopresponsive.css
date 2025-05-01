@@ -1,0 +1,147 @@
+@media (max-width: 768px) {
+    .filter-toggle {
+        display: block;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .filter-section {
+        width: 100%;
+        display: none;
+    }
+
+    .filter-section.active {
+        display: block;
+    }
+
+    .products-section {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+   
+}
+@media (max-width: 768px) {
+    .filter-section1 {
+      flex-wrap: wrap;
+      padding: 10px 9px;
+      gap: 10px;
+    }
+    
+    .filter-button {
+      display: none;
+    }
+    
+    .filter-toggle {
+      display: flex;
+      order: 2; 
+    }
+    
+    .sort-container {
+      width: 100%;
+      order: 1;
+      justify-content: space-between;
+    }
+    
+    .results-info {
+        width: 100%;
+        order: 3;
+        text-align: left;
+        padding-top: 5px;
+        border-top: 1px solid #eee;
+        margin-top: 5px;
+    }
+    .sort-label {
+        display: inline-block; 
+        font-size: 12px;
+        margin-right: 5px; 
+      }
+    
+    .sort-select {
+      flex-grow: 1;
+      max-width: calc(100% - 110px); 
+    }
+  }
+@media (max-width: 768px) {
+
+}
+/* popular */
+@media (max-width: 767px) {
+  .tags-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  .tags-grid {
+      grid-template-columns: 1fr;
+  }
+}
+/* popular ends */
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.footer-content {
+		flex-direction: column;
+	}
+	
+	.footer-about, .links-column {
+		text-align: center;
+	}
+	
+	.footer-links {
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer-links {
+		flex-direction: column;
+	}
+	
+	.links-column {
+		min-width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media (max-width: 992px) {
+  #email .row {
+    flex-wrap: wrap; 
+    gap: 20px;
+  }
+  
+  #email .Newsletterimg {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #email .Newsletterform {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  #email .search-input-wrapper {
+    max-width: 100%;
+  }
+  
+  #email .search-form input[type="email"] {
+    padding-right: 20px;
+  }
+  
+  #email .search-form button[type="submit"] {
+    right: 0;
+    top: auto;
+    height: 52px;
+}
+#email .Newslettertext {
+  text-align: center;
+}
+#email .card {
+  gap: 15px;
+}
+}

@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecobazar</title>
+    <link rel="shortcut icon" href="./images/plant 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <!-- topheader starts -->
+      <div class="topheader">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 rightsite d-flex text-center">
+              <iconify-icon
+                icon="mdi:location"
+                width="30"
+                height="30"
+              ></iconify-icon>
+              <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+            </div>
+            <div class="col-lg-4 text-center liftsite d-flex d-none d-lg-block">
+              <ul>
+                <li>
+                  <select>
+                    <option value="ENG">ENG</option>
+                    <option value="BNG">BNG</option>
+                  </select>
+                </li>
+                <li>
+                  <select>
+                    <option value="USD">USD</option>
+                    <option value="BNG">BNG</option>
+                  </select>
+                </li>
+                <li class="lineheight">
+                  <iconify-icon
+                    icon="fluent:divider-tall-24-regular"
+                    width="24"
+                    height="24"
+                  ></iconify-icon>
+                </li>
+
+                <li>
+                  <a href="">Sign In / Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- topheader ends -->
+
+      <!-- midelheader starts -->
+      <div class="midelheader">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-2 col-6 order-1 order-lg-1 justify-content-start"
+            >
+              <a href=""><img src="./images/Logo (1).png" alt="" /></a>
+            </div>
+            <div class="col-lg-6 order-3 order-lg-2">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <div
+              class="col-lg-4 col-6 text-end order-2 order-lg-3 d-none d-lg-block"
+            >
+              <ul class="d-flex">
+                <li><a href="">
+                  <iconify-icon
+                    icon="solar:heart-outline"
+                    width="40"
+                    height="40"
+                  ></iconify-icon>
+                </a> </li>
+                <li class="lineheight">
+                  <iconify-icon
+                    icon="fluent:divider-tall-24-regular"
+                    width="40"
+                    height="40"
+                  ></iconify-icon>
+                </li>
+                <li class="cartprent"><a href="./cart.html">
+                  <iconify-icon
+                    icon="solar:bag-outline"
+                    width="40"
+                    height="40"
+                  ></iconify-icon>
+                  <span class="cartcounter">2</span>
+                </a> </li>
+
+                <li class="para1"><a href="./cart.html">
+                  <p>Shopping cart:</p>
+                  <h5>$57.00</h5>
+                </a></li>
+              </ul>
+            </div>
+            <div
+              class="option col-6 d-block d-lg-none order-2 order-lg-3 text-end"
+            >
+              <ul class="">
+                <li>
+                  <a
+                    data-bs-toggle="offcanvas"
+                    href="#offcanvasExample"
+                    role="button"
+                    aria-controls="offcanvasExample"
+                    ><iconify-icon
+                      icon="tabler:menu-3"
+                      width="34"
+                      height="34"
+                    ></iconify-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- midelheader ends -->
+      <!-- offcanvas start -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./images/" alt=""></h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <ul class="list">
+              <li><a href="">HOME</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- offcanvas ends -->
+
+      <!-- buttomheader -->
+      <div id="buttomheader" class="d-none d-lg-block">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-9">
+              <div class="liftmanu">
+                <ul class="d-flex align-items-center ">
+                  <li >
+                    <a class="active" href=""><iconify-icon icon="ic:round-menu" width="24" height="24"></iconify-icon>All Categories<iconify-icon icon="fe:arrow-down" width="24" height="24"></iconify-icon></a>
+                  
+                 <ul class="categorySubmenu">
+                  <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/896/896530.png" alt="">
+                      Electronics</a></li>
+                  <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/5564/5564823.png" alt="">
+                      Furniture</a></li>
+                  <li><a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/3050/3050198.png" alt="">Fashion</a>
+                  </li>
+                  <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/3081/3081993.png" alt="">Toys</a>
+                  </li>
+                  <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/6456/6456651.png" alt="">Shoes</a>
+                  </li>
+                  <li><a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/3728/3728783.png"
+                        alt="">Festival</a></li>
+                </ul>
+                  
+                  </li>
+                  <li><a  href="" class="active1" >Home<iconify-icon icon="fe:arrow-down" width="24" height="24"></iconify-icon></a></li>
+                  <li><a href="./shop.html">Shop<iconify-icon icon="fe:arrow-down" width="24" height="24"></iconify-icon></a></li>
+                  <li><a href="./16_Checkout.html">Checkout<iconify-icon icon="fe:arrow-down" width="24" height="24"></iconify-icon></a></li>
+                  <li><a href="">Pages<iconify-icon icon="fe:arrow-down" width="24" height="24"></iconify-icon></a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <a href="tel:2195550114" class="d-flex align-items-center contactNum">
+                <iconify-icon icon="line-md:phone-call" width="25" height="25"></iconify-icon>
+                (219) 555-0114
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer  -->
+      <footer class="d-block d-lg-none">
+        <div class="footersection d-flex">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-3">
+                <a href="./shop.html"
+                  ><iconify-icon
+                    icon="material-symbols:home"
+                    width="24"
+                    height="24"
+                  ></iconify-icon
+                ></a>
+                <p>Shop</p>
+              </div>
+              <div class="col-3">
+                <a href=""
+                  ><iconify-icon
+                    icon="solar:heart-linear"
+                    width="24"
+                    height="24"
+                  ></iconify-icon
+                ></a>
+                <p>Favourite</p>
+              </div>
+              <div class="col-3">
+                <a href="./cart.html"
+                  ><iconify-icon
+                    icon="mdi:cart-outline"
+                    width="24"
+                    height="24"
+                  ></iconify-icon
+                ></a>
+                <p>Cart</p>
+              </div>
+              <div class="col-3">
+                <a href=""
+                  ><iconify-icon
+                    icon="uil:setting"
+                    width="24"
+                    height="24"
+                  ></iconify-icon
+                ></a>
+                <p>My profile</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- footer ends -->
+
+      <!-- buttomheader ends -->
+    </header>
+
+
+    <main>
+    <!-- banner  -->
+ <section id="banner">
+  <div class="container">
+
+
+    <div class="bannerslider">
+      <div>
+        <div class="row">
+          <div class="col-lg-7">
+              <img class="img-fluid" src="./images/slider1.png" alt="">
+          </div>
+          <div class="col-lg-5 rightsite">
+            <p class="welcome">WELCOME TO SHOPERY</p>
+            <h1>Fresh & Healthy 
+              Organic Food</h1>
+            <p>Free shipping on all your order. we deliver, you enjoy</p>
+            <a class="cssbuttons-io-button" href="./shop.html">
+              Shop now
+              <div class="icon">
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </a>          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-lg-7">
+              <img class="img-fluid" src="./images/slide (2).png" alt="">
+          </div>
+          <div class="col-lg-5 rightsite">
+            <p class="welcome">WELCOME TO SHOPERY</p>
+            <h1>Fresh & Healthy 
+              Organic Food</h1>
+            <p>Free shipping on all your order. we deliver, you enjoy</p>
+            <a class="cssbuttons-io-button">
+              Shop now
+              <div class="icon">
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </a>          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-lg-7">
+              <img class="img-fluid" src="./images/slide(3).png" alt="">
+          </div>
+          <div class="col-lg-5 rightsite">
+            <p class="welcome">WELCOME TO SHOPERY</p>
+            <h1>Fresh & Healthy 
+              Organic Food</h1>
+            <p>Free shipping on all your order. we deliver, you enjoy</p> 
+          <a class="cssbuttons-io-button">
+              Shop now
+              <div class="icon">
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </a>
+          
+        
+          </div>
+        </div>
+      </div>
+
+    </div>
+        
+
+
+    <div class="lineheight leftArrow"><iconify-icon icon="bitcoin-icons:arrow-left-filled" width="24" height="24"></iconify-icon></div>
+    <div class="lineheight rightArrow"><iconify-icon icon="bitcoin-icons:arrow-right-filled" width="24" height="24"></iconify-icon></div>
+  </div>
+
+ </section>
+
+ <!-- banner ends -->
+ <!-- cards  -->
+ <section id="cards">
+  <div class="container px-0">
+    <div class="row g-0"> 
+      <div class="col-lg-3 col-md-6  col-sm-6  col-12 p-0"> 
+          <div class="card h-100"> 
+            <img src="./images/Icon.png" alt="">
+            <h3>Free Shipping</h3>
+            <p>Free shipping with discount</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6  col-sm-6  col-12 p-0">
+          <div class="card h-100">
+            <img src="./images/Icon (1).png" alt="">
+            <h3>Great Support 24/7</h3>
+            <p>Instant access to Contact</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6  col-sm-6 col-12 p-0">
+          <div class="card h-100">
+            <img src="./images/Icon (2).png" alt="">
+            <h3>100% Secure Payment</h3>
+            <p>We ensure your money is save</p>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6  col-sm-6  col-12 p-0">
+          <div class="card h-100">
+            <img src="./images/Icon (3).png" alt="">
+            <h3>Money-Back Guarantee</h3>
+            <p>30 days money-back guarantee</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- cards ends -->
+
+ <!-- Products  -->
+
+
+
+
+
+
+ <section id="Products">
+   <div class="container">
+
+<h1>Introducing Our Products</h1>
+<ul class="list">
+  <li  ><a class="active"  href="">All</a></li>
+  <li><a class="hover d-lg-block d-none" href=""></a></li>
+  <li><a  href="">Vegetable</a></li>
+  <li><a class="hover d-lg-block d-none" href=""></a></li>
+  <li><a   href="">Fruit</a></li>
+  <li><a class="hover d-lg-block d-none" href=""></a></li>
+  <li><a  href="">Meat & Fish</a></li>
+  <li><a class="hover d-lg-block d-none" href=""></a></li>
+  <li><a   href="">View All</a></li>
+</ul>
+ <div class="row g-0">
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (6).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Green Apple</a>
+      <strong>$14.99 <span>$20.99</span></strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Image (3).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Surjapur Mango</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Image (4).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Red Tomatos</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (1).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Fresh Cauliflower</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (2).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Green Lettuce</a>
+      <strong>$14.99</strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (3).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Eggplant</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (4).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Green Chilli</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+  <div class="productCard col-lg-3 col-md-4 col-6 ">
+    <div class="thumbnail">
+      <a href="#"><img src="./images/Product Image (5).png" alt="Image 1" class="img-fluid"></a>
+      <ul class="quickLinks">
+        <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+        <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <a href="#">Eggplant</a>
+      <strong>$14.99 </strong>
+      <div class="rating">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text"></label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text"></label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text"></label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text"></label>
+        <input checked="" type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text"></label>
+      </div>
+      <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+          height="24"></iconify-icon></a>
+    </div>
+  </div>
+
+ 
+        
+     </div>
+   </div>
+ </section>
+
+ <!-- Products ends -->
+
+
+ <!-- shortcut  -->
+
+<section id="shortcut">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="milkimg">
+        <a href=""><img src="./images/Image (7).png" alt=""></a>
+        <div class="milkcont">
+          <h2>100% Fresh </h2>
+          <h2>Cow Milk</h2>
+          <h6>Starting at <span>$14.99</span> </h6>
+          <a class="cssbuttons-io-button">
+            Shop Now
+            <div class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </a> 
+        </div>
+      </div>
+  </div>
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="drinkimg">
+        <a href=""><img src="./images/Image (6).png" alt=""></a>
+        <div class="drinkcont">
+          <h6>Drink Sale </h6>
+          <h2>Water & <span class="d-block">Soft Drink</span> </h2>
+          <h2></h2>
+          <a class="cssbuttons-io-button">
+            Shop Now
+            <div class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </a> 
+        </div>
+      </div>
+  </div>
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="breakfastimg">
+        <a href=""><img src="./images/Image (5).png" alt=""></a>
+        <div class="breakfastcont">
+          <h6>100% Organic </h6>
+          <h2>Quick <span class="d-block">Breakfastvv</span></h2>
+          <a class="cssbuttons-io-button">
+            Shop Now
+            <div class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </a> 
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+ <!-- shortcut ends -->
+
+ <!-- special  -->
+
+<section id="special">
+  <div class="container">
+   
+      <div class=" midlesection " >
+        <h5>Best Deals</h5>
+        <h2>Our Special Products <span class="d-block">Deal of the Month</span></h2>
+      
+      <div class="timer" data-date="April 25, 2025 00:00:00">
+          <div class="timercount">
+            <h2  id="days">00</h2>
+            <span>Days</span>
+          </div>
+          <div class="timercount">
+            <h2 id="Hours">00</h2>
+            <span>Hours</span>
+          </div>
+          <div class="timercount">
+            <h2 id="minutes">00</h2>
+            <span>minutes</span>
+          </div>
+          <div class="timercount" >
+            <h2 id="seconds">00</h2>
+            <span>seconds</span>
+          </div>
+
+      </div>
+      <a class="cssbuttons-io-button">
+        Shop Now
+        <div class="icon">
+          <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+          </svg>
+        </div>
+      </a> 
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ <!-- special ends -->
+
+
+ <!-- featuredproducts  -->
+
+
+
+
+<section id="featuredproducts">
+  <div class="container">
+    <h1>Featured Products</h1>
+    <div class="row">
+      <div class="lineheight leftArrow"><iconify-icon icon="bitcoin-icons:arrow-left-filled" width="24" height="24"></iconify-icon></div>
+      <div class="lineheight rightArrow"><iconify-icon icon="bitcoin-icons:arrow-right-filled" width="24" height="24"></iconify-icon></div>
+    
+      <div class="featureSlider">
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image mango.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Surjapur Mango</a>
+            <strong>$14.99 </strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image (11).png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Fresh Indian Malta</a>
+            <strong>$14.99 </strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image (9).png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Chinese cabbage</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image (10).png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Big Potatoes</a>
+            <strong>$14.99 </strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/corn.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Corn</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image (13).png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Red Chili</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/tomatos.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Red Tomatos</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Product Image (12).png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Green Chili</a>
+            <strong>$14.99 </strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Eggplant.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Eggplant</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Fresh Cauliflower.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Fresh Cauliflower</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Green Lettuce.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Green Lettuce</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+        
+        <div class="productCard  ">
+          <div class="thumbnail">
+            <a href="#"><img src="./images/Green Apple.png" alt="Image 1" class="img-fluid"></a>
+            <ul class="quickLinks">
+              <li><a href="#"><iconify-icon icon="prime:heart" width="24" height="24"></iconify-icon></a></li>
+              <li><a href="#"><iconify-icon icon="proicons:eye" width="24" height="24"></iconify-icon></a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <a href="#">Green Apple</a>
+            <strong>$14.99</strong>
+            <div class="rating">
+              <input type="radio" id="star5" name="rate" value="5" />
+              <label for="star5" title="text"></label>
+              <input type="radio" id="star4" name="rate" value="4" />
+              <label for="star4" title="text"></label>
+              <input type="radio" id="star3" name="rate" value="3" />
+              <label for="star3" title="text"></label>
+              <input type="radio" id="star2" name="rate" value="2" />
+              <label for="star2" title="text"></label>
+              <input checked="" type="radio" id="star1" name="rate" value="1" />
+              <label for="star1" title="text"></label>
+            </div>
+            <a class="addToCart" href="#"><iconify-icon icon="heroicons:shopping-bag" width="24"
+                height="24"></iconify-icon></a>
+          </div>
+        </div>
+      
+        
+       </div>
+      </div>
+</section>
+
+
+
+
+ 
+ <!-- featuredproducts ends -->
+
+
+ <!-- review  -->
+
+<section id="review">
+  <div class="container">
+    <h1>What our Clients Says</h1>
+     <div class="reviewcardsslider d-flex">
+      <div class="reviewcards ">
+        <div class=" reviewcardscount">
+          <img src="./images/Vector.png" alt="">
+          <h6>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</h6>
+        </div>
+        <div class="reviewcardsimg">
+          <img src="./images/Image (11).png" alt="">
+          <h5>Jenny Wilson</h5>
+          <p>Customer</p>
+        </div>
+      </div>
+      <div class="reviewcards ">
+        <div class=" reviewcardscount">
+          <img src="./images/Vector.png" alt="">
+          <h6>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</h6>
+        </div>
+        <div class="reviewcardsimg">
+          <img src="./images/Image (12).png" alt="">
+          <h5>Jenny Wilson</h5>
+          <p>Customer</p>
+        </div>
+      </div>
+      <div class="reviewcards ">
+        <div class=" reviewcardscount">
+          <img src="./images/Vector.png" alt="">
+          <h6>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</h6>
+        </div>
+        <div class="reviewcardsimg">
+          <img src="./images/Image (13).png" alt="">
+          <h5>Jenny Wilson</h5>
+          <p>Customer</p>
+        </div>
+      </div>
+      <div class="reviewcards ">
+        <div class=" reviewcardscount">
+          <img src="./images/Vector.png" alt="">
+          <h6>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</h6>
+        </div>
+        <div class="reviewcardsimg">
+          <img src="./images/Image (12).png" alt="">
+          <h5>Jenny Wilson</h5>
+          <p>Customer</p>
+        </div>
+      </div>
+      <div class="reviewcards ">
+        <div class=" reviewcardscount">
+          <img src="./images/Vector.png" alt="">
+          <h6>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</h6>
+        </div>
+        <div class="reviewcardsimg">
+          <img src="./images/Image (11).png" alt="">
+          <h5>Jenny Wilson</h5>
+          <p>Customer</p>
+        </div>
+      </div>
+
+
+    </div>
+    
+    <div class="lineheight leftArrow"><iconify-icon icon="bitcoin-icons:arrow-left-filled" width="24" height="24"></iconify-icon></div>
+    <div class="lineheight rightArrow"><iconify-icon icon="bitcoin-icons:arrow-right-filled" width="24" height="24"></iconify-icon></div>
+  
+    <div class="viedo">
+      <a href="https://youtu.be/aRxymTETvXk?si=eOvPaXAYKlyttxJD"><img class="img-fluid" src="./images/Group 30.png" alt=""></a>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- review ends -->
+
+
+ <!-- latestnews  -->
+
+ <section id="latestnewss">
+  <div class="container">
+    <h1>Latest News</h1>
+    <div class="row latestnews">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="./images/Image (14).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curabitur porttitor orci eget neque accumsan venenatis.</h5>
+            <p class="card-text">Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+          </div>
+          <div class="card-body">
+            <a class="cssbuttons-io-button">
+              Read More
+              <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+                </svg>
+              </div>
+            </a> 
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="./images/Image (15).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curabitur porttitor orci eget neque accumsan venenatis.</h5>
+            <p class="card-text">Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+          </div>
+          <div class="card-body">
+            <a class="cssbuttons-io-button">
+              Read More
+              <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+                </svg>
+              </div>
+            </a> 
+          </div>
+        </div>
+      </div> 
+
+      
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="./images/Image (16).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curabitur porttitor orci eget neque accumsan venenatis.</h5>
+            <p class="card-text">Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+          </div>
+          <div class="card-body">
+            <a class="cssbuttons-io-button">
+              Read More
+              <div class="icon">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path>
+                </svg>
+              </div>
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div> 
+</section>
+
+
+
+
+
+
+ <!-- latestnews ends -->
+
+
+ <!-- email  -->
+
+
+
+
+
+ <section id="email">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Logo - Order 1 on all screens -->
+      <div class="col-lg-2 col-md-3 col-12 Newsletterimg d-flex align-items-center order-lg-1 order-md-1 order-1">
+        <a href=""><img src="./images/Logo (1).png" alt="Ecobazar Logo"></a>
+        <div class="damotext d-none d-lg-none d-md-block ">
+          <h3>Subscribe our Newsletter</h3>
+          <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+        </div>
+ </div>
+      
+      <!-- Form - Order 2 on mobile, Order 3 on larger screens -->
+      <div class="col-lg-6 col-md-5 col-12 Newsletterform order-lg-3 order-md-3 order-2">
+        <form class="search-form">
+          <div class="search-input-wrapper">
+            <input placeholder="Your email address" type="email">
+            <button type="submit">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      
+      <!-- Text - Order 3 on mobile, Order 2 on larger screens -->
+      <div class="col-lg-4 col-md-4 col-12 Newslettertext order-lg-2 order-md-2 order-3 d-lg-block d-block d-md-none">
+        <h3>Subscribe our Newsletter</h3>
+        <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- email ends -->
+
+ <!-- shopery-footer  -->
+
+
+
+ <footer class="shopery-footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-about">
+              <h3>About Shopery</h3>
+              <p>Maind during monitor anim laberini mobiletie but it provides junior BA, sport laberinum morgue, congue nice.</p>
+              <div class="contact-info">
+                  <p>(98) 595-018</p>
+                  <p>Privacy@gmail.com</p>
+              </div>
+          </div>
+          
+          <div class="footer-links">
+              <div class="links-column">
+                  <h4>My Account</h4>
+                  <ul>
+                      <li><a href="#">My Account</a></li>
+                      <li><a href="#">Order History</a></li>
+                      <li><a href="#">Shaping Cart</a></li>
+                      <li><a href="#">Weather</a></li>
+                      <li><a href="#">Settings</a></li>
+                  </ul>
+              </div>
+              
+              <div class="links-column">
+                  <h4>Helps</h4>
+                  <ul>
+                      <li><a href="#">Content</a></li>
+                      <li><a href="#">Total</a></li>
+                      <li><a href="#">Terms & Condition</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Trade Order</a></li>
+                  </ul>
+              </div>
+              
+              <div class="links-column">
+                  <h4>Proxy</h4>
+                  <ul>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">Products Details</a></li>
+                  </ul>
+              </div>
+              
+              <div class="links-column">
+                  <h4>Instagram</h4>
+                  <a href=""><img class="img-fluid" src="./images/Instagram (1).png" alt=""></a>     
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <p>&copy; 2023 Shopery. All rights reserved.</p>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+ <!-- shopery-footer ends -->
+
+
+
+
+
+
+</main>
+
+    <!-- js start hear  -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
+
+

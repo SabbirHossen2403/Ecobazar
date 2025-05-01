@@ -1,0 +1,196 @@
+@media ( max-width:767px) {
+    .topheader  button{
+        visibility: visible;
+    }
+
+    .topheader .navbar {
+      flex-shrink: 0;
+      padding-right: calc(var(--bs-gutter-x)* .5);
+      margin-top: var(--bs-gutter-y);
+  }
+
+.midelheader .col-lg-2  a img{
+  width: 142px;
+}
+
+#banner .rightsite {
+  padding-top: 6px;
+  padding-left: 17px;
+}
+
+#banner .rightsite h1 {
+  font-size: 44px;
+}
+
+#banner .rightsite p {
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+#banner .rightsite .welcome {
+  line-height: 0%;
+}
+#banner .leftArrow, #banner .rightArrow {
+  top: 27%;
+}
+
+#apple  .card-group  .producttittel a {
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  border-radius: 40px;
+  padding: 13px;
+  width: 60px;
+  height: 60px;
+  background: var(--gren-gray-scale-100);
+  transition: all 0.3s ease;
+}
+
+#Products .container .list li {
+  margin: 5px;
+}
+#Products .card-group .producttittel {
+  padding-left: 5px;
+}
+#Products  .card-group  .producttittel a {
+  top: 36px;
+  right: 23px;
+}
+#banner .rightsite p {
+	margin-top: 10px;
+	margin-bottom: 22px;
+}
+#Products .container h1 {
+  font-size: 28px;
+}
+#Products .container h1 {
+  padding: 50px 0 20px 0;
+}
+#Products {
+  padding-bottom: 50px;
+}
+#Products .container .list li {
+  padding-bottom: 30px;
+}
+#special .container .midlesection {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 68px;
+}
+#special .container .midlesection .cssbuttons-io-button {
+  margin-bottom: 25px;
+}
+#special .container .liftimg {
+  margin-left: 0px;
+}
+#special .container .midlesection h2 {
+  font-size: 26px;
+}
+#special .container .midlesection .timer {
+  gap: 0px;
+  margin: 24px 0 10px 0;
+}
+#featuredproducts h1 {
+  font-size: 30px;
+}
+#special .container .midlesection .timer .timercount {
+  width: 100%;
+}
+
+#featuredproducts .leftArrow {
+	left: -4px;
+}
+
+#featuredproducts .rightArrow {
+	right: -4px;
+}
+#featuredproducts .leftArrow, #featuredproducts .rightArrow {
+  top: 58%;
+}
+#review  .leftArrow, #review  .rightArrow {
+  top:45%;
+}
+
+#review  .rightArrow {
+  right: 2px;
+}
+#review .leftArrow {
+  left: 2px;
+}
+
+#featuredproducts .featuredcard .card-group a .img{
+  height: 490px;
+}
+#review {
+  padding: 100px 0 264px;
+  margin-bottom: 30px;
+}
+
+#latestnewss {
+  margin: 0px 0;
+}
+
+#latestnewss {
+  padding: 0;
+}
+#latestnewss h1 {
+  margin-bottom: 10px;
+}
+
+
+}
+
+/* email responsive design */
+    @media (max-width: 992px) {
+      #email .row {
+        flex-wrap: wrap; 
+        gap: 20px;
+      }
+      
+      #email .Newsletterimg {
+        justify-content: center;
+        width: 100%;
+      }
+      
+      #email .Newsletterform {
+        justify-content: flex-start;
+        width: 100%;
+      }
+      
+      #email .search-input-wrapper {
+        max-width: 100%;
+      }
+      
+      #email .search-form input[type="email"] {
+        padding-right: 20px;
+      }
+      
+      #email .search-form button[type="submit"] {
+        right: 0;
+        top: auto;
+        height: 52px;
+    }
+    #email .Newslettertext {
+      text-align: center;
+  }
+  #banner .rightsite {
+    padding-top: 0px;
+}
+#banner .rightsite p {
+  /* margin-top: 20px; */
+  margin-bottom: 15px;
+}
+#review {
+  margin-bottom: 65px;
+}
+#latestnewss {
+  margin: 0px 0;
+  padding: 0px 0;
+}
+#Products {
+  margin-bottom: 8px;
+  padding-bottom: 93px;
+}
+    }
+
+/* email responsive design end */
+    
