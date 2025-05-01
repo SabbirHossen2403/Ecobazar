@@ -844,9 +844,11 @@ margin-left: 10px;
 
 .category-tags {
 	margin-bottom: 30px;
+	margin-bottom: 300px;
 }
 
 .category-tag {
+
 	display: inline-block;
 	background: #f5f5f5;
 	padding: 5px 10px;
