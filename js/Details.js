@@ -34,24 +34,20 @@ $(document).ready(function(){
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Tab functionality
     const tabBtns = document.querySelectorAll('.tab-btn');
     tabBtns.forEach(btn => {
         btn.addEventListener('click', function() {
-            // Remove active class from all buttons and content
             tabBtns.forEach(b => b.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(content => {
                 content.classList.remove('active');
             });
             
-            // Add active class to clicked button and corresponding content
             this.classList.add('active');
             const tabId = this.getAttribute('data-tab');
             document.getElementById(tabId).classList.add('active');
         });
     });
     
-    // Quantity selector functionality
     const minusBtn = document.querySelector('.quantity-btn.minus');
     const plusBtn = document.querySelector('.quantity-btn.plus');
     const quantityInput = document.querySelector('.quantity-input');
@@ -68,14 +64,12 @@ document.addEventListener('DOMContentLoaded', function() {
         quantityInput.value = value + 1;
     });
     
-    // Ensure quantity is at least 1
     quantityInput.addEventListener('change', function() {
         if (parseInt(this.value) < 1) {
             this.value = 1;
         }
     });
     
-    // Add to cart functionality
     const addToCartBtn = document.querySelector('.add-to-cart-btn');
     addToCartBtn.addEventListener('click', function() {
         const quantity = parseInt(quantityInput.value);
