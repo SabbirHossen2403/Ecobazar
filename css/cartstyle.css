@@ -572,6 +572,7 @@ footer .menu {
 
 #cart {
     margin-top: 40px;
+    
 }
 
 #cart h1 {
@@ -587,6 +588,7 @@ footer .menu {
     border: 1px solid var(--gray-scale-gray-–-100);
     border-radius: 8px;
     overflow: hidden;
+    /* width: 637px; */
 
 }
 
@@ -690,6 +692,7 @@ footer .menu {
     border: 1px solid var(--gray-scale-gray-–-100);
     margin-top: 50px;
     padding: 15px 0px;
+    
 }
 
 #cart .couponcode h3 {

@@ -63,3 +63,126 @@
   gap: 15px;
 }
 }
+
+@media (max-width: 767px) {
+  #banner .container .manu {
+    margin-left: -18px;
+    padding-left: 0px;
+}
+
+#chinese .leftsite{
+  margin-bottom: 40px;
+}
+#chinese .headingcabbage h1 {
+  font-size: 23px;
+}
+
+.product-details {
+  padding: 8px 0px;
+}
+#chinese .card {
+  padding: 0px 3px;
+  gap: 3px;
+}
+
+#chinese .brand-info{
+  padding: 0 7px;
+  font-size: 14px;
+}
+.share-option h5 {
+  font-size: 14px;
+}
+#chinese .share-option .socialContainer {
+  width: 35px;
+  height: 35px;
+}
+#chinese #aptent {
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+  padding: 9px 19px;
+  font-size: 14px;
+}
+.quantity-selector {
+  padding: 1px 1px;
+}
+#tab {
+  margin-top: 38px;
+}
+.add-to-cart {
+  margin-bottom: 20px;
+  padding: 20px 0px;
+}
+#tab .tab-btn {
+  padding: 10px 5px;
+}
+#email {
+  margin-top: 40px;
+  padding: 0px 0px;
+}
+#email .card {
+  padding: 20px 25px 15px;
+}
+#banner {
+  margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 992px) {
+  .add-to-cart-btn {
+      padding: 16px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .add-to-cart {
+      flex-direction: row;
+      gap: 13px;
+  }
+  
+  .quantity-selector {
+      justify-content: center;
+      max-width: 160px;
+      margin: 0 0;
+  }
+  
+  .add-to-cart-btn {
+      padding: 16px;
+      order: 2; /* Move to bottom on mobile */
+  }
+  
+  #heart {
+      order: 3; /* Move to middle on mobile */
+      margin: 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .add-to-cart-btn {
+      font-size: 14px;
+  }
+  
+  .quantity-btn {
+      padding: 12px 10px;
+  }
+  
+  .quantity-input {
+      width: 40px;
+      padding: 10px 5px;
+  }
+
+
+
+
+
+}

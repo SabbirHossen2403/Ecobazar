@@ -61,6 +61,13 @@
       flex-grow: 1;
       max-width: calc(100% - 110px); 
     }
+    #banner .container .manu {
+      margin-left: -20px;
+  }
+  #email {
+    margin-top: 50px;
+    padding: 9px 0;
+}
   }
 @media (max-width: 768px) {
 
