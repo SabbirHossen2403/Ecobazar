@@ -33,4 +33,146 @@
   #email .card {
     gap: 15px;
   }
+  #email {
+    margin-top: 0px;
+    padding: 3px 0;
+}
   }
+
+
+  @media (max-width: 767px) {
+    #banner .container .manu {
+      padding-left: 0px;
+      margin-left: -23px;
+      gap: 3px;
+  }
+    #billing {
+        margin-top: 30px;
+    }
+    #billing .rightcount .subcount {
+      margin: 0 0px;
+  }
+    #billing h1 {
+        font-size: 20px;
+    }
+    
+    #billing .rightcount h2,
+    #billing .additional h2 {
+        font-size: 18px;
+    }
+    
+    #billing .subproduct {
+        flex-direction: row;
+        align-items: flex-start !important;
+    }
+    
+    #billing .subproduct img {
+        margin-bottom: 10px;
+    }
+    
+    #billing .subproduct p {
+        margin-left: 0 !important;
+    }
+    
+    #billing .rightcount .subcount {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #billing .rightcount .checkout a {
+        padding: 12px 30px;
+        font-size: 13px;
+    }
+    #billing .rightcount .subcount h5 {
+      margin-top: 25px;
+  }  #billing .rightcount .subcount h5 {
+    margin-top: 25px;
+}
+#billing .rightcount .subcount #subcounth5 {
+  margin-top: 0px;
+}
+#billing .rightcount .subcount .subcounth5 {
+  margin-top: 15px;
+}
+#billing .rightcount .subcount #shpping{
+margin-top: 17px;
+}
+}
+
+@media (max-width: 575px) {
+    #billing .row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    #billing .col-lg-4, 
+    #billing .col-lg-6 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 8px 0;
+    }
+    
+    #billing .wave-group .input,
+    #billing .custom-select,
+    #billing .secondcount .country input {
+        font-size: 16px;
+        padding: 12px 14px;
+        width: 100%;
+    }
+    
+    #billing .billinginfor .billingform h4,
+    #billing .secondcount .country h4,
+    #billing .thirdcount h4,
+    #billing .address h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-left: 6px;
+
+    }
+    #billing .secondcount .country h4{
+      margin-top: 6px;
+    }
+    
+    #billing .checkbox p {
+        font-size: 14px;
+    }
+    
+    #billing .paymethod .paymentcard #h6 {
+        font-size: 13px;
+    }
+    #billing .rightcount .subcount h5 {
+      margin-top: 25px;
+  }
+  #billing .rightcount .subcount #subcounth5 {
+    margin-top: 0px;
+}
+#billing .rightcount .subcount .subcounth5 {
+  margin-top: 15px;
+}
+#billing .rightcount .subcount #shpping{
+margin-top: 17px;
+}
+}
+
+@media (max-width: 400px) {
+    #billing .rightcount .checkout a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #billing .additional .order-notes-textarea {
+        height: 80px;
+    }
+    #billing .rightcount .subcount h5 {
+      margin-top: 25px;
+  }
+  #billing .rightcount .subcount #subcounth5 {
+    margin-top: 0px;
+}
+  #billing .rightcount .subcount .subcounth5 {
+    margin-top: 15px;
+}
+#billing .rightcount .subcount #shpping{
+  margin-top: 17px;
+}
+}
