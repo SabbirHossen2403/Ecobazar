@@ -109,3 +109,6 @@ $('#review .reviewcardsslider').slick({
   ]
 });
 
+new VenoBox({
+  selector: '.venobox',
+});
